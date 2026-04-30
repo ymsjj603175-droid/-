@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>유민성 Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/script.js"></script>
+</head>
+
+<body data-current="home">
+  <header class="site-header">
+    <a href="index.html" class="logo-wrap">
+      <img src="assets/logo.png" alt="유민성 포트폴리오 로고" class="logo-img" />
+      <span class="logo-text">Yoo Min Sung</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="메뉴 열기">☰</button>
+
+    <nav class="nav-menu">
+      <a href="index.html" data-page="home">Home</a>
+      <a href="project.html" data-page="project">Project</a>
+      <a href="award.html" data-page="award">Award</a>
+      <a href="news.html" data-page="news">News</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Undergraduate Researcher</p>
+
+        <h1>
+          유민성<br />
+          <span>Portfolio Works.</span>
+        </h1>
+
+        <p class="hero-desc">
+          ALD와 TGV 기반 반도체 공정 연구를 중심으로 소재·화학공학적 관점에서
+          차세대 반도체 패키징과 공정 기술을 탐구합니다.
+        </p>
+
+        <div class="hero-actions">
+          <a href="project.html" class="btn primary">프로젝트 보기</a>
+          <a href="award.html" class="btn ghost">이력 보기</a>
+        </div>
+      </div>
+
+      <div class="hero-image-card">
+        <img src="assets/project-banner.png" alt="ALD와 TGV 기반 반도체 공정 연구 배너" />
+      </div>
+    </section>
+
+    <section class="section intro-grid">
+      <article class="intro-card">
+        <span class="card-number">01</span>
+        <h2>Research Identity</h2>
+        <p>
+          FNMR 학부 연구생 활동을 통해 ALD 박막 증착, TGV 공정, 유리기판 기반 패키징 등
+          반도체 공정의 핵심 요소를 학습하고 있습니다.
+        </p>
+      </article>
+
+      <article class="intro-card">
+        <span class="card-number">02</span>
+        <h2>Technical Direction</h2>
+        <p>
+          공정 조건, 박막 균일도, 결함 분석, 소재·구조 최적화를 중심으로
+          실무형 반도체 공정 역량을 확장하고 있습니다.
+        </p>
+      </article>
+
+      <article class="intro-card">
+        <span class="card-number">03</span>
+        <h2>Career Goal</h2>
+        <p>
+          소재와 공정을 함께 이해하는 반도체 엔지니어로 성장하여
+          고성능 패키징과 제조 기술 발전에 기여하는 것을 목표로 합니다.
+        </p>
+      </article>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <p>Selected Projects</p>
+        <h2>진행한 프로젝트 및 활동</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-tag">Research</div>
+          <h3>FNMR 학부 연구생</h3>
+          <p>
+            ALD, TGV, 유리기판 기반 공정과 차세대 반도체 패키징 기술을 중심으로
+            연구 활동을 수행합니다.
+          </p>
+          <a href="project.html#fnmr">자세히 보기 →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Education</div>
+          <h3>반도체 FAB 공정 및 불량 분석 교육과정 수료</h3>
+          <p>
+            반도체 제조 공정 흐름과 주요 불량 발생 원인을 학습하며
+            공정 분석 역량을 쌓았습니다.
+          </p>
+          <a href="project.html#fab">자세히 보기 →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Experience</div>
+          <h3>한국산업기술시험원 근로 장학생</h3>
+          <p>
+            시험·평가 기관의 업무 환경을 경험하며 기술 문서, 장비,
+            실무 프로세스에 대한 이해를 높였습니다.
+          </p>
+          <a href="project.html#ktl">자세히 보기 →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Bootcamp</div>
+          <h3>디스플레이 부트캠프 중급과정 수료</h3>
+          <p>
+            디스플레이 공정과 소자 구조에 대한 중급 수준의 교육을 통해
+            전자재료 분야 이해도를 확장했습니다.
+          </p>
+          <a href="project.html#display">자세히 보기 →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section summary-section">
+      <div>
+        <p class="eyebrow">Summary</p>
+        <h2>전체 내용을 한눈에 볼 수 있는 포트폴리오</h2>
+      </div>
+
+      <div class="summary-list">
+        <a href="project.html">Project — 연구·교육·활동 정리</a>
+        <a href="award.html">Award — 수료·이수·성과 정리</a>
+        <a href="news.html">News — 최근 활동 및 업데이트</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Yoo Min Sung Portfolio. Materials · Semiconductor · Process</p>
+  </footer>
+</body>
+</html>
